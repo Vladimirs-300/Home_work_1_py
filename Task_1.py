@@ -4,7 +4,7 @@ number = int(input("Введите число дня недели от 1 до 7:
 
 if number < 1 or number > 7:
     print('Вы ввели неверное число!')
-elif number > 5:
+if number > 5:
     print('Да, этот день выходной!')
 else:
-    print('Увы, но это рабочий день!')
+    print('Это рабочий день!')
